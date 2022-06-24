@@ -1,3 +1,4 @@
+```
 Show databases;
 
 create database test;
@@ -45,3 +46,4 @@ phone_number varchar(11)
  drop table orders;
  drop table products;
  drop table customers;
+```
