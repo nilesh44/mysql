@@ -73,3 +73,14 @@ select * from customers where first_name like 'anil';
 ```
 ![image](https://user-images.githubusercontent.com/44174633/175936767-2e5737f0-49e5-4fc5-8192-869672982a8c.png)
 
+# Order by sort resultset in Ascending order
+```
+select * from orders order by order_time ASC;
+```
+![image](https://user-images.githubusercontent.com/44174633/175937871-1700ad04-a227-4318-9ea0-dca0747b6a48.png)
+
+# Order by sort resultset in Descending order
+```
+select * from orders order by order_time DESC;
+```
+![image](https://user-images.githubusercontent.com/44174633/175938043-11bbc8cd-2c9e-416c-903d-a69184018a22.png)
