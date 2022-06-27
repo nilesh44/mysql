@@ -26,3 +26,15 @@ alter table orders
 add constraint orders_ibfk_1
 foreign key (product_id) references products (product_id);
 ```
+
+# add unique constraint
+```
+alter table customers
+add constraint phone_number_unique unique (phone_number);
+```
+
+# drop unique constraint
+```
+alter table customers
+drop index phone_number_unique (name of constraint refering unique key);
+```
