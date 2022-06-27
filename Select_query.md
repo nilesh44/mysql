@@ -107,13 +107,13 @@ select distinct customer_id from orders where product_id = 2 ;
 ```
 ![image](https://user-images.githubusercontent.com/44174633/175939552-b35fd784-283c-4256-bd21-20e161b47be9.png)
 
-# Limit (fetch first two record) , for fetching number of rows.
+# Limit (fetch only first two record) , for fetching number of rows.
 ```
 select * from products limit 2;
 ```
 ![image](https://user-images.githubusercontent.com/44174633/175941606-93bd0685-7746-4b11-939a-78664d30b008.png)
 
-# Limit with Offset(does not rreturn first 3 records)
+# Limit (fetch only two record after first three) with Offset(does not rreturn first 3 records)
 ```
 select * from products limit 2 offset 3;
 ```
