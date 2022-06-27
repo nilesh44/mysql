@@ -48,7 +48,7 @@ phone_num varchar(11)
  drop table customers;
 ```
 
-
+```
 insert into customers(first_name,last_name,gender,phone_num) values('anil','singh','M','1234678765');
 insert into customers(first_name,last_name,gender) values('raj','patel','M');
 insert into customers(first_name,last_name,gender,phone_num) values('rahul','dube','M','1234678765');
@@ -67,3 +67,4 @@ insert into orders(product_id,customer_id,order_time) values(3,4,'2022-06-26 17:
 insert into orders(product_id,customer_id,order_time) values(3,5,'2022-06-25 17:20:55');
 insert into orders(product_id,customer_id,order_time) values(4,5,'2022-06-24 17:20:55');
 insert into orders(product_id,customer_id,order_time) values(4,2,'2022-06-23 17:20:55');
+```
