@@ -1,3 +1,4 @@
+```
 alter table orders
 drop primary key , MODIFY   order_id int;
 
@@ -9,3 +10,5 @@ add primary key (order_time);
 
 alter table orders
 drop primary key;
+
+```
