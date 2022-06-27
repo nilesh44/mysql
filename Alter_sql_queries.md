@@ -1,13 +1,33 @@
+# Add new column in existing table
+
+```
+alter table customers
+add column addhar_no varchar(12);
+ 
+```
+# remove column from existing table 
+```
+ alter table customers
+ drop column addhar_no ;
+```
+## Alter primary key 
+# drop primary key having auto increment
 ```
 alter table orders
 drop primary key , MODIFY   order_id int;
-
+```
+# Add primary key having auto increment
+```
 alter table orders
 add primary key (order_id), modify order_id int auto_increment;
-
+```
+# add primary key without auto increment
+```
 alter table orders
 add primary key (order_time);
-
+```
+# add primary key without having auto increment
+```
 alter table orders
 drop primary key;
 
