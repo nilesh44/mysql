@@ -118,3 +118,10 @@ select * from products limit 2;
 select * from products limit 2 offset 3;
 ```
 ![image](https://user-images.githubusercontent.com/44174633/175941342-45660535-1586-4846-98c3-60c6ebbaa7f7.png)
+
+# Column name (Alias) changing name of column in result set
+```
+select product_id , name , price , origin as country from products ;
+```
+![image](https://user-images.githubusercontent.com/44174633/175942613-07288ba0-2d37-4ee9-9682-ed41de7cd468.png)
+
