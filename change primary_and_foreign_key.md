@@ -38,3 +38,9 @@ add constraint phone_number_unique unique (phone_number);
 alter table customers
 drop index phone_number_unique (name of constraint refering unique key);
 ```
+
+# change column name
+```
+alter table customers
+change phone_number(old_column_name) phone_num(new_column_name) varchar(10)(data type);
+ ```
