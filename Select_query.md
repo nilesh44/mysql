@@ -32,4 +32,44 @@ select * from products
 where origin= 'american' 
 and price <= '3.00';
 ```
+# fetch records Where column has null value
+
+```
+select * from customers where phone_num is null;
+```
+
+# fetch records where column has not null values
+
+```
+select * from customers where phone_num is not null;
+```
+
+# where clause and Between
+
+```
+select * from orders
+where order_time 
+between '2022-06-17' and '2022-06-25';
+```
+
+# where clause and like
+```
+select * from customers where first_name like 'a%';
+```
+![image](https://user-images.githubusercontent.com/44174633/175936550-e77c4fbe-e2ba-4ef9-aa42-3bb857cf0483.png)
+
+```
+select * from customers where first_name like '%l';
+```
+![image](https://user-images.githubusercontent.com/44174633/175936633-b8d22e1f-d776-4cce-a96f-f2a4d5e050b8.png)
+
+```
+select * from customers where first_name like '%ni%';
+```
+![image](https://user-images.githubusercontent.com/44174633/175936681-8b32a5ee-24b5-44bf-b6a1-74c8b56bdd8a.png)
+
+```
+select * from customers where first_name like 'anil';
+```
+![image](https://user-images.githubusercontent.com/44174633/175936767-2e5737f0-49e5-4fc5-8192-869672982a8c.png)
 
