@@ -1,3 +1,6 @@
+Refer this for practice
+https://www.w3resource.com/sql-exercises/sql-aggregate-functions.php#SQLEDITOR
+
 ![image](https://user-images.githubusercontent.com/44174633/176608163-0efdeb24-6699-43c5-bbe8-e6a646ff5a06.png)
 
 ```
