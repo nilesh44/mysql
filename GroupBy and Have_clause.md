@@ -37,5 +37,18 @@ HAVING MAX(purch_amt)>2000.00;
 ```
 ![image](https://user-images.githubusercontent.com/44174633/176613507-43d5c9a5-6d1e-4be5-a34b-b0935fde0b6c.png)
 
+```
+SELECT cust_country,COUNT(grade) 
+FROM customer 
+GROUP BY cust_country 
+HAVING COUNT(grade)>2; 
+
+```
+![image](https://user-images.githubusercontent.com/44174633/176616967-f649683f-f47c-434c-a203-18d2f3a3207f.png)
+
+![image](https://user-images.githubusercontent.com/44174633/176617130-7dc4e1e8-23ab-4ed4-95c1-d14d34efbe8c.png)
+
+
+
 
 
