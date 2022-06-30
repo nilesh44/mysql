@@ -49,6 +49,26 @@ HAVING COUNT(grade)>2;
 ![image](https://user-images.githubusercontent.com/44174633/176617130-7dc4e1e8-23ab-4ed4-95c1-d14d34efbe8c.png)
 
 
+----------
+
+
+![image](https://user-images.githubusercontent.com/44174633/176617692-fafec70e-8f7f-4663-bd60-138f64d6e976.png)
+
+```
+SELECT cust_city,SUM(opening_amt), 
+AVG(receive_amt),MAX(payment_amt) 
+FROM customer 
+WHERE grade=2 
+GROUP BY cust_city 
+HAVING AVG(receive_amt)>500 
+ORDER BY SUM(opening_amt);
+```
+
+![image](https://user-images.githubusercontent.com/44174633/176617815-a2d2921e-a76a-4ac0-a01d-fddbaf7aa46f.png)
+
+
+
+
 
 
 
